@@ -166,7 +166,7 @@ section{
 
 .dishes .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
     gap:1.5rem;
     
 
@@ -193,8 +193,7 @@ section{
 }
 
 .services{
-    padding: 8rem calc((100vw - 1200px));
-
+    padding: 20px;
 }
 .services-container{
     display: grid;
@@ -237,7 +236,7 @@ section{
     align-items: center;
     height: 100%;
     padding: 100%;
-    padding: 10rem 0;
+    padding: 5rem;
     margin: 0 auto;
 }
 .staff h1{
